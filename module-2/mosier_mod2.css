@@ -1,0 +1,78 @@
+/*
+  File: mosier_mod2.css
+  Author: Megan Mosier
+  Course: CSD-430
+  Purpose: External stylesheet for mosier_mod2.jsp. Controls the page
+           layout, fonts, colors, and table styling.
+*/
+
+/* Page-wide settings: font, background, and a centered content width */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #faf6ee;
+    color: #3a2f2f;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    color: #7a2e3a;
+    border-bottom: 3px solid #c9a66b;
+    padding-bottom: 10px;
+}
+
+/* Overall data description under the title */
+p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* Section headings (Field Descriptions and each category) */
+h2 {
+    color: #7a2e3a;
+    margin-top: 30px;
+}
+
+/* Field description list */
+ul {
+    background-color: #fffdf8;
+    border: 1px solid #d9c9a8;
+    border-radius: 6px;
+    padding: 15px 15px 15px 35px;
+}
+
+/* Tables: full width, borders merged into single lines */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fffdf8;
+}
+
+/* Header cells */
+th {
+    background-color: #7a2e3a;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #7a2e3a;
+}
+
+/* Data cells */
+td {
+    padding: 10px;
+    border: 1px solid #d9c9a8;
+}
+
+/* Alternate row shading makes rows easier to read */
+tr:nth-child(even) td {
+    background-color: #f5ecd9;
+}
+
+/* Highlight a row when the mouse hovers over it */
+tr:hover td {
+    background-color: #ecdcc0;
+}
